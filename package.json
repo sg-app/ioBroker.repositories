@@ -30,6 +30,7 @@
     "setStableTag": "node lib/setStableTag.js",
     "setTag": "node lib/setTag.js",
     "stable": "node lib/readyForStable.js",
+    "stable0DayPrInfo": "node lib/stable0DayPrInfo.js",
     "stableBrandNewInfo": "node lib/stableBrandNewInfo.js",
     "handleReminder": "node lib/handleReminder.js"
   },
@@ -47,16 +48,15 @@
     "bluefox <dogafox@gmail.com>"
   ],
   "devDependencies": {
-    "@iobroker/repochecker": "^2.5.0",
-    "axios": "^1.7.2",
-    "chai": "^4.4.1",
-    "eslint": "^8.57.0",
-    "gulp": "^5.0.0",
+    "@iobroker/repochecker": "^3.1.1",
+    "axios": "^1.7.7",
+    "chai": "^4.5.0",
+    "eslint": "^9.11.1",
     "image-size": "^1.1.1",
     "minimist": "^1.2.8",
-    "mocha": "^10.4.0",
+    "mocha": "^10.7.3",
     "node.extend": "^2.0.3",
-    "semver": "^7.6.2",
-    "unzipper": "^0.11.6"
+    "semver": "^7.6.3",
+    "unzipper": "^0.12.3"
   }
 }
